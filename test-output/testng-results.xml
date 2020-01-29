@@ -2,38 +2,38 @@
 <testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27580" started-at="2020-01-28T19:40:58Z" finished-at="2020-01-28T19:41:26Z">
+  <suite name="Default suite" duration-ms="12408" started-at="2020-01-29T06:57:15Z" finished-at="2020-01-29T06:57:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27580" started-at="2020-01-28T19:40:58Z" finished-at="2020-01-28T19:41:26Z">
+    <test name="Default test" duration-ms="12408" started-at="2020-01-29T06:57:15Z" finished-at="2020-01-29T06:57:28Z">
       <class name="testcases.CustomerLogin">
-        <test-method status="PASS" signature="OpenBrowser()[pri:1, instance:testcases.CustomerLogin@d2cc05a]" name="OpenBrowser" duration-ms="16503" started-at="2020-01-28T19:40:58Z" finished-at="2020-01-28T19:41:14Z">
+        <test-method status="PASS" signature="OpenBrowser()[pri:1, instance:testcases.CustomerLogin@d2cc05a]" name="OpenBrowser" duration-ms="7282" started-at="2020-01-29T06:57:15Z" finished-at="2020-01-29T06:57:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="VerifyClickCustomer()[pri:2, instance:testcases.CustomerLogin@d2cc05a]" name="VerifyClickCustomer" duration-ms="7441" started-at="2020-01-28T19:41:14Z" finished-at="2020-01-28T19:41:22Z">
+        <test-method status="PASS" signature="VerifyClickCustomer()[pri:2, instance:testcases.CustomerLogin@d2cc05a]" name="VerifyClickCustomer" duration-ms="1205" started-at="2020-01-29T06:57:22Z" finished-at="2020-01-29T06:57:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyClickCustomer -->
-        <test-method status="PASS" signature="VerifySelectCustomer()[pri:3, instance:testcases.CustomerLogin@d2cc05a]" name="VerifySelectCustomer" duration-ms="681" started-at="2020-01-28T19:41:22Z" finished-at="2020-01-28T19:41:23Z">
+        <test-method status="PASS" signature="VerifySelectCustomer()[pri:3, instance:testcases.CustomerLogin@d2cc05a]" name="VerifySelectCustomer" duration-ms="692" started-at="2020-01-29T06:57:24Z" finished-at="2020-01-29T06:57:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySelectCustomer -->
-        <test-method status="PASS" signature="VerifyLogin()[pri:4, instance:testcases.CustomerLogin@d2cc05a]" name="VerifyLogin" duration-ms="87" started-at="2020-01-28T19:41:23Z" finished-at="2020-01-28T19:41:23Z">
+        <test-method status="PASS" signature="VerifyLogin()[pri:4, instance:testcases.CustomerLogin@d2cc05a]" name="VerifyLogin" duration-ms="95" started-at="2020-01-29T06:57:24Z" finished-at="2020-01-29T06:57:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLogin -->
-        <test-method status="FAIL" signature="VerifyCustomerView()[pri:5, instance:testcases.CustomerLogin@d2cc05a]" name="VerifyCustomerView" duration-ms="14" started-at="2020-01-28T19:41:23Z" finished-at="2020-01-28T19:41:23Z">
+        <test-method status="FAIL" signature="VerifyCustomerView()[pri:5, instance:testcases.CustomerLogin@d2cc05a]" name="VerifyCustomerView" duration-ms="33" started-at="2020-01-29T06:57:24Z" finished-at="2020-01-29T06:57:24Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"body > div > div > div.ng-scope > div > div:nth-child(1) > strong > span"}
   (Session info: chrome=79.0.3945.130)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'Fredricks-MBP', ip: '2c0f:fe38:2102:a717:694f:9d19:6d6c:390c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+System info: host: 'Fredricks-MBP.lg-global-office', ip: 'fe80:0:0:0:861:2160:e7b0:239%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/9w/_w1sf7fx0b9...}, goog:chromeOptions: {debuggerAddress: localhost:58862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9c42dfbab1446957133403f26d87f6da
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/9w/_w1sf7fx0b9...}, goog:chromeOptions: {debuggerAddress: localhost:54003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bfd29f6379787fca38a6c7048571bb61
 *** Element info: {Using=css selector, value=body > div > div > div.ng-scope > div > div:nth-child(1) > strong > span}]]>
             </message>
             <full-stacktrace>
@@ -41,10 +41,10 @@ Session ID: 9c42dfbab1446957133403f26d87f6da
   (Session info: chrome=79.0.3945.130)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'Fredricks-MBP', ip: '2c0f:fe38:2102:a717:694f:9d19:6d6c:390c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+System info: host: 'Fredricks-MBP.lg-global-office', ip: 'fe80:0:0:0:861:2160:e7b0:239%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/9w/_w1sf7fx0b9...}, goog:chromeOptions: {debuggerAddress: localhost:58862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9c42dfbab1446957133403f26d87f6da
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/9w/_w1sf7fx0b9...}, goog:chromeOptions: {debuggerAddress: localhost:54003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bfd29f6379787fca38a6c7048571bb61
 *** Element info: {Using=css selector, value=body > div > div > div.ng-scope > div > div:nth-child(1) > strong > span}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -92,15 +92,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCustomerView -->
-        <test-method status="PASS" signature="VerifySuccessfulWithdraw()[pri:6, instance:testcases.CustomerLogin@d2cc05a]" name="VerifySuccessfulWithdraw" duration-ms="1417" started-at="2020-01-28T19:41:23Z" finished-at="2020-01-28T19:41:24Z">
+        <test-method status="PASS" signature="VerifySuccessfulWithdraw()[pri:6, instance:testcases.CustomerLogin@d2cc05a]" name="VerifySuccessfulWithdraw" duration-ms="1446" started-at="2020-01-29T06:57:24Z" finished-at="2020-01-29T06:57:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySuccessfulWithdraw -->
-        <test-method status="PASS" signature="VerifyFailedWithdraw()[pri:7, instance:testcases.CustomerLogin@d2cc05a]" name="VerifyFailedWithdraw" duration-ms="1278" started-at="2020-01-28T19:41:24Z" finished-at="2020-01-28T19:41:25Z">
+        <test-method status="PASS" signature="VerifyFailedWithdraw()[pri:7, instance:testcases.CustomerLogin@d2cc05a]" name="VerifyFailedWithdraw" duration-ms="1487" started-at="2020-01-29T06:57:26Z" finished-at="2020-01-29T06:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyFailedWithdraw -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:8, instance:testcases.CustomerLogin@d2cc05a]" name="CloseBrowser" duration-ms="117" started-at="2020-01-28T19:41:25Z" finished-at="2020-01-28T19:41:25Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:8, instance:testcases.CustomerLogin@d2cc05a]" name="CloseBrowser" duration-ms="125" started-at="2020-01-29T06:57:27Z" finished-at="2020-01-29T06:57:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
