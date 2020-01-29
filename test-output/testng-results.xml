@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27580" started-at="2020-01-28T19:40:58Z" finished-at="2020-01-28T19:41:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27580" started-at="2020-01-28T19:40:58Z" finished-at="2020-01-28T19:41:26Z">
+      <class name="testcases.CustomerLogin">
+        <test-method status="PASS" signature="OpenBrowser()[pri:1, instance:testcases.CustomerLogin@d2cc05a]" name="OpenBrowser" duration-ms="16503" started-at="2020-01-28T19:40:58Z" finished-at="2020-01-28T19:41:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="VerifyClickCustomer()[pri:2, instance:testcases.CustomerLogin@d2cc05a]" name="VerifyClickCustomer" duration-ms="7441" started-at="2020-01-28T19:41:14Z" finished-at="2020-01-28T19:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClickCustomer -->
+        <test-method status="PASS" signature="VerifySelectCustomer()[pri:3, instance:testcases.CustomerLogin@d2cc05a]" name="VerifySelectCustomer" duration-ms="681" started-at="2020-01-28T19:41:22Z" finished-at="2020-01-28T19:41:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySelectCustomer -->
+        <test-method status="PASS" signature="VerifyLogin()[pri:4, instance:testcases.CustomerLogin@d2cc05a]" name="VerifyLogin" duration-ms="87" started-at="2020-01-28T19:41:23Z" finished-at="2020-01-28T19:41:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="FAIL" signature="VerifyCustomerView()[pri:5, instance:testcases.CustomerLogin@d2cc05a]" name="VerifyCustomerView" duration-ms="14" started-at="2020-01-28T19:41:23Z" finished-at="2020-01-28T19:41:23Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"body > div > div > div.ng-scope > div > div:nth-child(1) > strong > span"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'Fredricks-MBP', ip: '2c0f:fe38:2102:a717:694f:9d19:6d6c:390c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/9w/_w1sf7fx0b9...}, goog:chromeOptions: {debuggerAddress: localhost:58862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9c42dfbab1446957133403f26d87f6da
+*** Element info: {Using=css selector, value=body > div > div > div.ng-scope > div > div:nth-child(1) > strong > span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"body > div > div > div.ng-scope > div > div:nth-child(1) > strong > span"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'Fredricks-MBP', ip: '2c0f:fe38:2102:a717:694f:9d19:6d6c:390c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/9w/_w1sf7fx0b9...}, goog:chromeOptions: {debuggerAddress: localhost:58862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9c42dfbab1446957133403f26d87f6da
+*** Element info: {Using=css selector, value=body > div > div > div.ng-scope > div > div:nth-child(1) > strong > span}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at testcases.CustomerLogin.VerifyCustomerView(CustomerLogin.java:65)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCustomerView -->
+        <test-method status="PASS" signature="VerifySuccessfulWithdraw()[pri:6, instance:testcases.CustomerLogin@d2cc05a]" name="VerifySuccessfulWithdraw" duration-ms="1417" started-at="2020-01-28T19:41:23Z" finished-at="2020-01-28T19:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySuccessfulWithdraw -->
+        <test-method status="PASS" signature="VerifyFailedWithdraw()[pri:7, instance:testcases.CustomerLogin@d2cc05a]" name="VerifyFailedWithdraw" duration-ms="1278" started-at="2020-01-28T19:41:24Z" finished-at="2020-01-28T19:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFailedWithdraw -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:8, instance:testcases.CustomerLogin@d2cc05a]" name="CloseBrowser" duration-ms="117" started-at="2020-01-28T19:41:25Z" finished-at="2020-01-28T19:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- testcases.CustomerLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
